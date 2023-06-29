@@ -64,6 +64,7 @@ class PID {
   double GetLastP() const;
   double GetLastI() const;
   double GetLastD() const;
+  double GetLastOutput() const;
 
  private:
   void Initialize();

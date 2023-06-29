@@ -229,3 +229,4 @@ PID::Direction PID::GetDirection() const { return controllerDirection; }
 double PID::GetLastP() const { return this->lastP; }
 double PID::GetLastI() const { return this->outputSum; }
 double PID::GetLastD() const { return this->lastD; }
+double PID::GetLastOutput() const { return this->output; }
